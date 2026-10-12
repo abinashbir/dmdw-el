@@ -26,4 +26,4 @@ The app includes:
 - A dataset preview
 
 The app runs from `app.py` and reads `Students Performance Dataset.csv` from the
-project root.
+project root.# dmdw-el
