@@ -1,0 +1,28 @@
+[project]
+name = "el"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abinashbir", email = "abinashbir13112@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "asttokens>=3.0.2",
+    "executing>=2.2.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pure-eval>=0.2.4",
+    "pygments>=2.21.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "streamlit>=1.57.0",
+]
+
+[project.scripts]
+el = "el:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
